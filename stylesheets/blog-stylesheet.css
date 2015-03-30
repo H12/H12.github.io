@@ -7,7 +7,7 @@ main {
   margin-right: 15%;
   margin-top: 4em;
   margin-bottom: 4em;
-  box-shadow: 0em .5em 1em #1976D2
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
 main ol li a {
