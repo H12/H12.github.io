@@ -1,0 +1,68 @@
+html {
+  background-color: #2196F3;
+  font-family: arial;
+  color: #212121
+}
+
+table {
+  text-align: center;
+  table-layout: fixed;
+  padding: .5em;
+  background-color: white;
+}
+
+img {
+  width: 20em;
+  height: auto;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: #727272;
+}
+
+.h-table {
+  position: relative;
+  width: 85%;
+  left: 7.5%;
+  margin-bottom: 1em;
+  background-color: #FF5252;
+  box-shadow: 0em .5em 1em #1976D2
+}
+
+.f-table {
+  position: relative;
+  width: 85%;
+  left: 7.5%;
+  margin-top: 1em;
+  background-color: #FF5252;
+  box-shadow: 0em .5em 1em #1976D2
+}
+
+#about-me {
+  width: 70%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0em .5em 1em #1976D2
+}
+
+#profile-img {
+  text-align: right;
+}
+
+#profile-desc {
+  text-align: left;
+  padding: 2em 4em 2em 2em;
+}
+
+#projects {
+  width: 70%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-shadow: 0em .5em 1em #1976D2
+}
