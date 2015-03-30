@@ -9,6 +9,10 @@ main {
   box-shadow: 0em .5em 1em #1976D2
 }
 
+main ol li a {
+  color: #1976D2;
+}
+
 section h2 {
   text-align: center;
   margin-left: 15%;
