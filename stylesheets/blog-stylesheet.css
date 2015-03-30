@@ -5,7 +5,8 @@ main {
   padding-bottom: 1em;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 2em;
+  margin-top: 4em;
+  margin-bottom: 4em;
   box-shadow: 0em .5em 1em #1976D2
 }
 
@@ -18,9 +19,5 @@ section h2 {
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 2em;
-}
-
-.f-table {
-  position: absolute;
-  bottom: 0;
+  margin-bottom: 2em;
 }
