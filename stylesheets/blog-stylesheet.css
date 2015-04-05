@@ -14,6 +14,10 @@ main ol li a {
   color: #1976D2;
 }
 
+p a {
+  color: #1976D2;
+}
+
 section h2 {
   text-align: center;
   margin-left: 15%;
