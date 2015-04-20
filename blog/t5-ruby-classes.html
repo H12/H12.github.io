@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<header>
+  <table class="h-table">
+    <tr>
+      <td class="nav"><a href="../index.html">Home</a></td>
+      <td class="nav"><a href="./index.html">Blog</a></td>
+      <td class="nav"><a href="../construction/index.html">Education</a></td>
+      <td class="nav"><a href="../construction/index.html">Experience</a></td>
+      <td class="nav"><a href="../construction/index.html">Contact</a></td>
+    </tr>
+  </table>
+</header>
+
+<main>
+  <h1>Ruby Classes</h1>
+  <h4>April 19th, 2015</h4>
+
+  <section>
+    <p>
+      Classes are the killer feature that make Ruby, and all other object oriented classes such a useful tool. Classes allow you to define your own types of objects, with any properties, or possible functions you want them to have. The best way to get a better handle on what exactly a class is and how it might be useful is to look at an example. So, let's get started!
+    </p>
+    <p>
+      I'm a big baseball fan, so the example Class I'm going to talk about here is a BaseballPlayer class. Baseball players, in the real world, have a bunch of numbers associated with there performance. The batters can hit home runs, the pitchers can strike out batters, and the fielders can record outs. For the sake of simplicity, I'm only going to consider batters when talking about the BaseballPlayer class. So, what else can batters (not named Javier Baez) do besides hit home runs? Well, they can also get singles doubles and triples, as well as recording an out (they can do a bunch of other things too, but I'll stop here as I'm trying to write a blog post, not a novel). All these different types of hits can impact the player's statistics. The two most traditionally looked at are batting average, and slugging percentage. Respectively, a player's batting average is the number of hits he has divided by the number of times he's been at bat, and his slugging percentage is the number of total bases divided by his at bats. So, in order to calculate either of these two statistics, we really only need to keep track of three different things: the number of at bats, the number of hits, and the number of total bases for this player. So, now that we know what we need to track, let's go over how we can write our BaseballPlayer class to do that for us.
+    </p>
+    <p>
+      So, the first step in writing a class is deciding what values our "instance variables" should start at. Instance variables are simply numbers that we want to keep track of, which for us are at bats (AB), total bases (TB), and hits (H). So, any time we create a new BaseballPlayer object, it would be natural to start all his stats at zero! Now, we need to ask ourselves, how and when do these stats change? Well, the answer is whenever the batter hits the ball! This is where methods come in. Methods are how we change the instance variables in our class. In our case, we would want methods for singles, doubles, triples, home runs, and outs. All of these methods would need to be written to increase ABs by 1, all but outs would increase Hs by 1, and singles/doubles/tribles/homeruns would increase TBs by 1/2/3/4 respectively.
+    </p>
+    <p>
+      We're not quite done! Remember how I mentioned batting average and slugging percentage earlier? Well, this is another situation where we can use methods. This time, instead of <em>changing</em> our variables, we are going to <em>use</em> them to calculate our other stats! So before, when we called the "single" method on a player, it would increase all of ABs, Hs, and TBs by one. Here, we would call a "batting_average" method on the player, which would return the value of Hs divided by ABs! The same is done for "slugging_percentage", only by substituting TBs in for Hs. As I'm sure you can imagine, it would be very easy to add more variables and methods to the class, so that we could keep track of RBIs, strikeouts, walks, or really anything else! Classes are flexible that way.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
+
+<footer>
+  <table class="f-table">
+    <tr>
+      <td class="nav"><a href="https://github.com/H12">GitHub</a></td>
+      <td class="nav"><a href="https://twitter.com/CubsfanH12">Twitter</a></td>
+      <td class="nav"><a href="https://www.linkedin.com/in/firth1">LinkedIn</a></td>
+      <td class="nav"><a href="http://www.quora.com/Henry-Firth-1">Quora</a></td>
+      <td class="nav"><a href="mailto:henrynf12@gmail.com">Email</a></td>
+    </tr>
+  </table>
+</footer>
