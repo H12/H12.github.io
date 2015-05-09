@@ -1,0 +1,38 @@
+html {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #3165AA;
+  color: white;
+}
+
+footer {
+  background-color: #F0F0F0;
+}
+
+section {
+  width: 100%;
+  overflow: auto;
+  margin: auto;
+}
+
+article {
+  display: block;
+  position: relative;
+}
+
+.left {
+  float: left;
+  width: 49%;
+  margin-right: 25px;
+}
+
+.right {
+  width: 49%;
+  margin-left: 50%;
+}
+
+code {
+  background-color: #d3d3d3;
+}
