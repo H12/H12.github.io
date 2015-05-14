@@ -1,0 +1,83 @@
+html {
+  background-color: #d2d2d2;
+  font-family: arial;
+}
+
+body {
+  margin: 0;
+  padding: 0 0 8px 0;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  background-color: rgba(0, 200, 200, 1);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-table {
+  width: auto;
+  margin-left: 30%;
+  margin-bottom: 0px;
+  color: white!important;
+}
+
+#nav-table td {
+  padding: 20px 24px 6px 24px;
+}
+
+#nav-table .current {
+  border-bottom: 2px solid #FFF;
+}
+
+aside {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  background-color: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+#aside-header {
+  height: 144px;
+  line-height: 240px;
+  text-indent: 12px;
+  font-size: 24px;
+  background-color: #a6a6a6;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+main {
+  margin-left: 20%;
+  padding-top: 72px;
+}
+
+main section {
+  width: 90%;
+  margin: auto;
+  padding: 24px;
+  background-color: #FFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+#profile-img {
+  text-align: right;
+}
+
+#profile-img img {
+  width: 240px;
+}
+
+#profile-desc {
+  text-align: left;
+  padding: 2em 4em 2em 2em;
+}
