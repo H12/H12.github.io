@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <head>
-  <title>Your page title here</title>
+  <title>Henry's Page</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/new.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-new.css">
 </head>
 
-<header>
-  <table class="h-table">
-    <tr>
-      <td class="nav"><a href="../index.html">Home</a></td>
-      <td class="nav"><a href="./index.html">Blog</a></td>
-      <td class="nav"><a href="../construction/index.html">Education</a></td>
-      <td class="nav"><a href="../construction/index.html">Experience</a></td>
-      <td class="nav"><a href="../cheatsheets/index.html">Cheatsheets</a></td>
-    </tr>
-  </table>
-</header>
+<body>
+  <aside>
+    <div id="aside-header">
+      Other Blogs
+    </div>
+    <ol>
+      <li><a href="./t1-git-blog.html">Git</a></li>
+      <li><a href="./c1-chefs-kitchen.html">Chef's Kitchen</a></li>
+      <li><a href="./t2-css-design.html">CSS Design</a></li>
+      <li><a href="./t3-arrays-hashes.html">Arrays and Hashes</a></li>
+      <li><a href="./c3-thinking-style.html">Thinking Styles</a></li>
+      <li><a href="./t4-enumerable-methods.html">The <code>map</code> Method</a></li>
+      <li><a href="./c4-tech-issues.html">Issues in the Tech World</a></li>
+      <li><a href="./t5-ruby-classes.html">Ruby Classes</a></li>
+      <li><a href="./c5-feedback.html">Pairing and Giving Feedback</a></li>
+      <li><a href="./t6-oop-concepts.html">Object Oriented vs. Functional Programming</li>
+      <li><a href="./c6-stereotype-threat.html">Stereotype Threat</li>
+      <li><a href="./t7-JavaScript.html">JavaScript vs. Ruby</li>
+      <li><a href="./c7-values.html">My Values</li>
+      <li><a href="./t8-tech.html">Recursion</a></li>
+      <li><a href="./c8-conflict.html">Conflict</a></li>
+    </ol>
+  </aside>
 
-<main>
-  <h1>Arrays and Hashes</h1>
-  <h2>No, not the corned beef kind</h2>
-  <h4>April 4th, 2015</h4>
+  <header>
+    <div id="nav-table">
+      <table>
+        <tbody>
+          <tr>
+            <td><a href="../index-new.html">Home</a></td>
+            <td class="current"><a href="./index.html">Blog</a></td>
+            <td><a href="../cheatsheets/index-new.html">Cheatsheets</a></td>
+            <!-- <td>Projects</td>
+            <td>Resume</td>
+            <td>Social</td>
+            <td>Contact</td> -->
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </header>
 
-  <section>
-    <p>
-      Coding is all about data. Either the kind you get from your users, or the kind you make yourself. The longer you code, the more data you need to keep track of. In Ruby, learning how to use Arrays and Hashes to the best of your ability makes managing your data much, much easier.
-    <p>
-      Let's start with arrays. Remember back in grade-school, when you learned the three different types of lines? Regular old lines had arrows on both ends, and extended out to infinity. Line segments, on the other hand, started and ended with a dot, and had a finite length. Then there were rays. Rays started with a dot, then extended out to infinity in the other direction. Well, an array is a lot like a ray. It starts at a specific spot, and then extends as far as you want it to. Only instead of starting with a dot, arrays start at zero, and then count up by ones. At each step in the array (0,1,2,...), you get to keep track of an object. A number, a string, you name it! Then, whenever you want to access one of your object, you just say, "Hey computer! Give me whatever is in slot 1 of that array!" Let's translate that into something your computer will understand...
-      <br><br>
-      <code>return that_array[1]</code>
-      <br><br>
-      But wait, how do we put something into slot one of that array? Well, in English you do that by saying, "Hey computer! Take this list of things and put them into that array!" Unfortunately, your computer probably doesn't speak English, so let's translate that into Ruby so our computer can know what it is you're shouting about...
-      <br><br>
-      <code>that_array = ['thing-1', 'thing-2', 'thing-red', 'thing-blue']</code>
-      <br><br>
-      Now when you ask computer to <code>return that_array[1]</code>, it will say, "<code>thing-2</code>"! Be sure to remember that while you usually start counting at one, your arrays start at zero!
+  <main>
 
-    </p>
-    <p>
-      Hashes work in a very similar way, and while they may be a little trickier to put together, they can be <em>significantly</em> more useful! In contrast with arrays, which keep track of your objects by assigning them numbers, hashes keep track of your objects by assigning them words! Or to be more specific, strings. And not just any strings, but strings you that you get to pick out on your own! Let's see do an example...
-      <br><br>
-      <code>age = { "Jane Doe" => 26, "John Doe" => 29 }</code>
-      <br><br>
-      This created a hash called <code>age</code> which contains the ages of Jane and John Doe. Now if you want to get the age of Jane, you simply say to your computer <code>return age["Jane Doe"]</code>, and your computer would return the number <code>29</code>! Technically, for hashes, "Jane Doe" is referred to as the key. So for the future, if anyone tries to engage you in techno-babble, you know what they mean when they say "key" or "hash".
-    </p>
+    <section>
+      <h1>Arrays and Hashes</h1>
+      <h2>No, not the corned beef kind</h2>
+      <h4>April 4th, 2015</h4>
+      <p>
+        Coding is all about data. Either the kind you get from your users, or the kind you make yourself. The longer you code, the more data you need to keep track of. In Ruby, learning how to use Arrays and Hashes to the best of your ability makes managing your data much, much easier.
+      <p>
+        Let's start with arrays. Remember back in grade-school, when you learned the three different types of lines? Regular old lines had arrows on both ends, and extended out to infinity. Line segments, on the other hand, started and ended with a dot, and had a finite length. Then there were rays. Rays started with a dot, then extended out to infinity in the other direction. Well, an array is a lot like a ray. It starts at a specific spot, and then extends as far as you want it to. Only instead of starting with a dot, arrays start at zero, and then count up by ones. At each step in the array (0,1,2,...), you get to keep track of an object. A number, a string, you name it! Then, whenever you want to access one of your object, you just say, "Hey computer! Give me whatever is in slot 1 of that array!" Let's translate that into something your computer will understand...
+        <br><br>
+        <code>return that_array[1]</code>
+        <br><br>
+        But wait, how do we put something into slot one of that array? Well, in English you do that by saying, "Hey computer! Take this list of things and put them into that array!" Unfortunately, your computer probably doesn't speak English, so let's translate that into Ruby so our computer can know what it is you're shouting about...
+        <br><br>
+        <code>that_array = ['thing-1', 'thing-2', 'thing-red', 'thing-blue']</code>
+        <br><br>
+        Now when you ask computer to <code>return that_array[1]</code>, it will say, "<code>thing-2</code>"! Be sure to remember that while you usually start counting at one, your arrays start at zero!
 
-  </section>
-</main>
+      </p>
+      <p>
+        Hashes work in a very similar way, and while they may be a little trickier to put together, they can be <em>significantly</em> more useful! In contrast with arrays, which keep track of your objects by assigning them numbers, hashes keep track of your objects by assigning them words! Or to be more specific, strings. And not just any strings, but strings you that you get to pick out on your own! Let's see do an example...
+        <br><br>
+        <code>age = { "Jane Doe" => 26, "John Doe" => 29 }</code>
+        <br><br>
+        This created a hash called <code>age</code> which contains the ages of Jane and John Doe. Now if you want to get the age of Jane, you simply say to your computer <code>return age["Jane Doe"]</code>, and your computer would return the number <code>29</code>! Technically, for hashes, "Jane Doe" is referred to as the key. So for the future, if anyone tries to engage you in techno-babble, you know what they mean when they say "key" or "hash".
+      </p>
 
-<footer>
-  <table class="f-table">
-    <tr>
-      <td class="nav"><a href="https://github.com/H12">GitHub</a></td>
-      <td class="nav"><a href="https://twitter.com/CubsfanH12">Twitter</a></td>
-      <td class="nav"><a href="https://www.linkedin.com/in/firth1">LinkedIn</a></td>
-      <td class="nav"><a href="http://www.quora.com/Henry-Firth-1">Quora</a></td>
-      <td class="nav"><a href="mailto:henrynf12@gmail.com">Email</a></td>
-    </tr>
-  </table>
-</footer>
+    </section>
+  </main>
+</body>

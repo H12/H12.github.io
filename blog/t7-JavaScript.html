@@ -1,51 +1,70 @@
 <!DOCTYPE html>
 <head>
-  <title>Your page title here</title>
+  <title>Henry's Page</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/new.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-new.css">
 </head>
 
-<header>
-  <table class="h-table">
-    <tr>
-      <td class="nav"><a href="../index.html">Home</a></td>
-      <td class="nav"><a href="./index.html">Blog</a></td>
-      <td class="nav"><a href="../construction/index.html">Education</a></td>
-      <td class="nav"><a href="../construction/index.html">Experience</a></td>
-      <td class="nav"><a href="../cheatsheets/index.html">Cheatsheets</a></td>
-    </tr>
-  </table>
-</header>
+<body>
+  <aside>
+    <div id="aside-header">
+      Other Blogs
+    </div>
+    <ol>
+      <li><a href="./t1-git-blog.html">Git</a></li>
+      <li><a href="./c1-chefs-kitchen.html">Chef's Kitchen</a></li>
+      <li><a href="./t2-css-design.html">CSS Design</a></li>
+      <li><a href="./t3-arrays-hashes.html">Arrays and Hashes</a></li>
+      <li><a href="./c3-thinking-style.html">Thinking Styles</a></li>
+      <li><a href="./t4-enumerable-methods.html">The <code>map</code> Method</a></li>
+      <li><a href="./c4-tech-issues.html">Issues in the Tech World</a></li>
+      <li><a href="./t5-ruby-classes.html">Ruby Classes</a></li>
+      <li><a href="./c5-feedback.html">Pairing and Giving Feedback</a></li>
+      <li><a href="./t6-oop-concepts.html">Object Oriented vs. Functional Programming</li>
+      <li><a href="./c6-stereotype-threat.html">Stereotype Threat</li>
+      <li><a href="./t7-JavaScript.html">JavaScript vs. Ruby</li>
+      <li><a href="./c7-values.html">My Values</li>
+      <li><a href="./t8-tech.html">Recursion</a></li>
+      <li><a href="./c8-conflict.html">Conflict</a></li>
+    </ol>
+  </aside>
 
-<main>
-  <h1>JavaScript vs. Ruby</h1>
-  <h2><!-- The subtitle, if you want it --></h2>
-  <h4>May 6th, 2015</h4>
+  <header>
+    <div id="nav-table">
+      <table>
+        <tbody>
+          <tr>
+            <td><a href="../index-new.html">Home</a></td>
+            <td class="current"><a href="./index.html">Blog</a></td>
+            <td><a href="../cheatsheets/index-new.html">Cheatsheets</a></td>
+            <!-- <td>Projects</td>
+            <td>Resume</td>
+            <td>Social</td>
+            <td>Contact</td> -->
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </header>
 
-  <section>
-    <p>
-      JavaScript and Ruby are two tremendously popular languages. Each have their own unique strengths, weaknesses, and quirks which people either love or hate. Anyone with an amount of familiarity with these two languages know that the differences between them are abundant. In this blog post, I'm going to attempt to articulate some of the more significant differences.
-    </p>
-    <p>
-      I think a good place to start would be to describe some of the most common uses for JavaScript and Ruby. For the former, this is easy: JavaScript is built to be run by web browsers, and is used to bestow interactivity to web pages. If you ever come across a web page with a bunch of fancy animations or that allow you to interact with the web page in fun/interesting ways, odds are that website is using JavaScript. More simply, any time you're on a web-page and a pop up window appears asking you to input information or press a button, that pop-up is the result of the browser running a JavaScript method. Ruby, on the other hand, has a much less specific and more expansive array of uses. Ruby is a language that deals with data as a whole, as opposed to data that exists within a web-page. As a result, it has a much more exhaustive array of methods and plug-ins that help coders deal with different types of data. It has a great deal of flexibility, both in how it can be used, as well as in how it can be written.
-    </p>
-    <p>
-      To that end, the syntax for these two languages are considerably different as well. JavaScript has a much more rigid structure, using brackets, semicolons, parentheses, and other symbols to break things up. Ruby, in a manner of speaking, is much "cleaner". Where JavaScript would want you to put parentheses, Ruby is happy without them. Ruby's "cleanliness" plays a large role in its popularity. Getting stuff done requires markedly fewer keystrokes than many other languages, which makes it a very appealing option to lazy coders like myself.
-    </p>
+  <main>
+    <section>
+      <h1>JavaScript vs. Ruby</h1>
+      <h2><!-- The subtitle, if you want it --></h2>
+      <h4>May 6th, 2015</h4>
+      <p>
+        JavaScript and Ruby are two tremendously popular languages. Each have their own unique strengths, weaknesses, and quirks which people either love or hate. Anyone with an amount of familiarity with these two languages know that the differences between them are abundant. In this blog post, I'm going to attempt to articulate some of the more significant differences.
+      </p>
+      <p>
+        I think a good place to start would be to describe some of the most common uses for JavaScript and Ruby. For the former, this is easy: JavaScript is built to be run by web browsers, and is used to bestow interactivity to web pages. If you ever come across a web page with a bunch of fancy animations or that allow you to interact with the web page in fun/interesting ways, odds are that website is using JavaScript. More simply, any time you're on a web-page and a pop up window appears asking you to input information or press a button, that pop-up is the result of the browser running a JavaScript method. Ruby, on the other hand, has a much less specific and more expansive array of uses. Ruby is a language that deals with data as a whole, as opposed to data that exists within a web-page. As a result, it has a much more exhaustive array of methods and plug-ins that help coders deal with different types of data. It has a great deal of flexibility, both in how it can be used, as well as in how it can be written.
+      </p>
+      <p>
+        To that end, the syntax for these two languages are considerably different as well. JavaScript has a much more rigid structure, using brackets, semicolons, parentheses, and other symbols to break things up. Ruby, in a manner of speaking, is much "cleaner". Where JavaScript would want you to put parentheses, Ruby is happy without them. Ruby's "cleanliness" plays a large role in its popularity. Getting stuff done requires markedly fewer keystrokes than many other languages, which makes it a very appealing option to lazy coders like myself.
+      </p>
 
-      <!-- copy and paste as many sections as you want to add paragraphs -->
-  </section>
-</main>
+        <!-- copy and paste as many sections as you want to add paragraphs -->
+    </section>
+  </main>
 
-<footer>
-  <table class="f-table">
-    <tr>
-      <td class="nav"><a href="https://github.com/H12">GitHub</a></td>
-      <td class="nav"><a href="https://twitter.com/CubsfanH12">Twitter</a></td>
-      <td class="nav"><a href="https://www.linkedin.com/in/firth1">LinkedIn</a></td>
-      <td class="nav"><a href="http://www.quora.com/Henry-Firth-1">Quora</a></td>
-      <td class="nav"><a href="mailto:henrynf12@gmail.com">Email</a></td>
-    </tr>
-  </table>
-</footer>
+</body>
