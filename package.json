@@ -1,0 +1,19 @@
+{
+  "name": "h12.github.io",
+  "version": "1.0.0",
+  "description": "Henry Firth's Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h12/h12.github.io.git"
+  },
+  "author": "Henry Firth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h12/h12.github.io/issues"
+  },
+  "homepage": "https://github.com/h12/h12.github.io#readme"
+}
