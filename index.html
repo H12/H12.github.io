@@ -11392,12 +11392,30 @@ var author$project$Main$gramsWater = function (amounts) {
 	return elm$core$String$fromInt(
 		elm$core$Basics$round(amounts.b)) + ' grams of water';
 };
+var mdgriffith$elm_ui$Internal$Flag$padding = mdgriffith$elm_ui$Internal$Flag$flag(2);
+var mdgriffith$elm_ui$Internal$Model$PaddingStyle = F5(
+	function (a, b, c, d, e) {
+		return {$: 'PaddingStyle', a: a, b: b, c: c, d: d, e: e};
+	});
+var mdgriffith$elm_ui$Element$padding = function (x) {
+	return A2(
+		mdgriffith$elm_ui$Internal$Model$StyleClass,
+		mdgriffith$elm_ui$Internal$Flag$padding,
+		A5(
+			mdgriffith$elm_ui$Internal$Model$PaddingStyle,
+			'p-' + elm$core$String$fromInt(x),
+			x,
+			x,
+			x,
+			x));
+};
 var author$project$Main$pageLayout = function (model) {
 	return A2(
 		mdgriffith$elm_ui$Element$column,
 		_List_fromArray(
 			[
 				mdgriffith$elm_ui$Element$centerX,
+				mdgriffith$elm_ui$Element$padding(10),
 				mdgriffith$elm_ui$Element$spacing(30)
 			]),
 		_List_fromArray(
